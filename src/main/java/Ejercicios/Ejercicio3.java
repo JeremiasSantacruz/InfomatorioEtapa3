@@ -3,7 +3,20 @@ package Ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio3 {
+
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int continuar = 1;
+        int nro;
+        while (continuar == 1 ) {
+            evaluarNota();
+            System.out.println("Si desea continuar presione 1, sino cualquier otro numero.");
+            continuar = scanner.nextInt();
+        }
+        scanner.close();
+    }
+
+    public static void evaluarNota(){
         System.out.print("Ingrese la nota");
         Scanner scanner = new Scanner(System.in);
         Integer nota = scanner.nextInt();
@@ -20,4 +33,5 @@ public class Ejercicio3 {
             System.out.println("Desaprobado.");
         }
     }
+
 }

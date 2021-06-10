@@ -1,14 +1,24 @@
-ComplemetariosUno/Ejercicio1.java
- ComplemetariosUno.Ejercicio1
-ComplemetariosUno/Ejercicio5.java
- ComplemetariosUno.Ejercicio5
-ComplemetariosUno/Ejercicio4.java
- ComplementariosUno.Ejercicio4
-ComplemetariosUno/Ejercicio2.java
- ComplemetariosUno.Ejercicio2
 Ejercicios/Ejercicio2.java
  Ejercicios.Ejercicio2
+ComplemetariosUno/Ejercicio1.java
+ ComplemetariosUno.Ejercicio1
+Ejercicios/Ejercicio7.java
+ Ejercicios.Ejercicio7
+ComplemetariosUno/Ejercicio4.java
+ ComplementariosUno.Ejercicio4
+Ejercicios/Ejercicio6.java
+ Ejercicios.Ejercicio6
+Ejercicios/Ejercicio3.java
+ Ejercicios.Ejercicio3
 ComplemetariosUno/Ejercicio3.java
  ComplemetariosUno.Ejercicio3
+ComplemetariosUno/Ejercicio5.java
+ ComplemetariosUno.Ejercicio5
 Ejercicios/Ejercicio1.java
  Ejercicios.Ejercicio1
+Ejercicios/Ejercicio4.java
+ Ejercicios.Ejercicio4
+Ejercicios/Ejercicio5.java
+ Ejercicios.Ejercicio5
+ComplemetariosUno/Ejercicio2.java
+ ComplemetariosUno.Ejercicio2
