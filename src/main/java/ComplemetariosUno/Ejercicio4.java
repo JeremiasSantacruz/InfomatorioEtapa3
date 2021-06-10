@@ -1,24 +1,22 @@
-package ComplementariosUno;
+package ComplemetariosUno;
 
-import java.io.*;
-import java.nio.file.Paths;
-
+import java.util.Scanner;
 
 public class Ejercicio4 {
 
     public static void main(String[] args) {
-        String path = Paths.get("src\\main\\java\\ComplemetariosUno\\Archivo.txt").toAbsolutePath().toString() ;
-        try (BufferedReader br = new BufferedReader(new FileReader(path))){
-            String line = br.readLine();
-            while (line != null) {
-                System.out.println(line);
-                line = br.readLine();
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese un numero: ");
+        Integer numero = scanner.nextInt();
+        scanner.close();
+        System.out.println("El factorial de "+ numero + " es: "  + factorial(numero));
     }
 
+    public static Integer factorial(Integer num){
+        if (num <= 1){
+            return num;
+        } else {
+            return num * factorial(num-1);
+        }
+    }
 }
