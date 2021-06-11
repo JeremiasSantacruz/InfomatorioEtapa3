@@ -28,3 +28,10 @@ ComplemetariosUno/Ejercicio6.java
  ComplemetariosUno.Ejercicio6
 ComplemetariosUno/Ejercicio7.java
  ComplemetariosUno.Ejercicio7
+ComplemetariosUno/Ejercicio8.java
+ ComplemetariosUno.Ejercicio8
+ ComplemetariosUno.Ejercicio8$Persona
+ComplementariosDos/Ejercicio1.java
+ ComplementariosDos.Ejercicio1
+ComplementariosDos/Ejercicio2.java
+ ComplementariosDos.Ejercicio2
