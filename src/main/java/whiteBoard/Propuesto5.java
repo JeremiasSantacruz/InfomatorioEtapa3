@@ -27,13 +27,15 @@ public class Propuesto5 {
             System.out.println("No se encontro empleados con esa letra.");
         } else {
             System.out.println("Los Empleado son: ");
-            encontrados.stream().forEach(empleado -> System.out.println(empleado.toString()));
+            encontrados.stream().forEach(empleado -> System.out.println(empleado.getNombreCompleto()));
         }
-        System.out.println("El mas joven " + ordenamientoUtil.masJoven(empleados));
-        System.out.println("El mas viejo "+ ordenamientoUtil.masViejo(empleados).toString());
-        System.out.println("El mejor Pagado " + ordenamientoUtil.mejorPagado(empleados).toString());
-        System.out.println("El peor Pagado " + ordenamientoUtil.peorPagado(empleados).toString());
-        System.out.println("Ordenados alfabetico " + ordenamientoUtil.ordenarAlfabetico(empleados));
+        System.out.println("El mas joven " + ordenamientoUtil.masJoven(empleados).getNombreCompleto());
+        System.out.println("El mas viejo "+ ordenamientoUtil.masViejo(empleados).getNombreCompleto());
+        System.out.println("El mejor Pagado " + ordenamientoUtil.mejorPagado(empleados).getNombreCompleto());
+        System.out.println("El peor Pagado " + ordenamientoUtil.peorPagado(empleados).getNombreCompleto());
+        System.out.println("Ordenados alfabetico: ");
+        ordenamientoUtil.ordenarAlfabetico(empleados).stream()
+                .forEach(empleado -> System.out.println(empleado.getNombreCompleto()));
     }
 
 

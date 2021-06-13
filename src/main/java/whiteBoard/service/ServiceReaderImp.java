@@ -30,7 +30,7 @@ public class ServiceReaderImp implements ServiceReader {
     public Empleado leerLinea() throws IOException {
 //    Cada línea es un --> Empleado → se almacena en una lista
         String line = br.readLine();
-        if (line == null) {
+        if (line == null || line.isBlank()) {
             return null;
         }
 //    Carlos,Sanchez,20-01-1980,45678.08
@@ -45,6 +45,7 @@ public class ServiceReaderImp implements ServiceReader {
 
     @Override
     public List<Empleado> obtenerTodos() throws IOException {
+        // TODO Corregido Lineas en blanco.
         ArrayList<Empleado> empleados = new ArrayList<>();
         Empleado empleado;
         empleado = leerLinea();

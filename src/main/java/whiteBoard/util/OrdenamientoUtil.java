@@ -22,12 +22,14 @@ public class OrdenamientoUtil {
     }
 
     public Empleado masJoven(List<Empleado> empleados){
+        //TODO Agregar comparacion mas exacta.
         return empleados.stream().min(Comparator.comparingInt(empleado -> {
             return this.dateUtil.edad(empleado.getFecha());
         })).get();
     }
 
     public Empleado masViejo(List<Empleado> empleados){
+        //TODO Agregar comparacion mas exacta.
         return empleados.stream().max(Comparator.comparingInt(empleado -> {
             return dateUtil.edad(empleado.getFecha());
         })).get();
