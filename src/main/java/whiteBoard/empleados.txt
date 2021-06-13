@@ -1,0 +1,4 @@
+Jeremias,Santacruz,29-10-1992,0.2
+Jose,Verde,11-09-1990,100.2
+Maria,guitierres,14-02-1998,123
+Analia,jilferez,15-02-1998,45.5

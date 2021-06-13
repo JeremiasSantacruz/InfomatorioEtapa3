@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 public class Ejercicio4 {
 
     public static void main(String[] args) {
-        String path = Paths.get("src/main/java/ComplemetariosUno/Archivo.txt").toAbsolutePath().toString() ;
+        String path = Paths.get("src/main/java/Archivo.txt").toAbsolutePath().toString() ;
         try (BufferedReader br = new BufferedReader(new FileReader(path))){
             String line = br.readLine();
             while (line != null) {
