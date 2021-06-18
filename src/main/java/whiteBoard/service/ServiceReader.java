@@ -17,6 +17,7 @@ public interface ServiceReader {
 
     /**
      * Lee el archivo y devuelve una lista de Empleados.
+     *
      * @return List de empledos
      * @throws IOException
      */

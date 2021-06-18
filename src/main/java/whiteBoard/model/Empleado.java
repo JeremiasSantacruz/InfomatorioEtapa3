@@ -1,10 +1,6 @@
 package whiteBoard.model;
 
-import java.io.Serializable;
 import java.time.LocalDate;
-import java.util.Comparator;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class Empleado {
     private String nombre;
@@ -14,12 +10,13 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return  nombre +
+        return nombre +
                 "," + apellido +
                 "," + fecha +
                 "," + sueldo;
     }
-    public String getNombreCompleto(){
+
+    public String getNombreCompleto() {
         return nombre + " " + apellido;
     }
 

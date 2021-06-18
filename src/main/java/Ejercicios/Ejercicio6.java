@@ -7,7 +7,7 @@ public class Ejercicio6 {
         Scanner scanner = new Scanner(System.in);
         int continuar = 1;
         int nro;
-        while (continuar == 1 ) {
+        while (continuar == 1) {
             System.out.println("Por favor, ingrese un numero: ");
             nro = scanner.nextInt();
             System.out.println("EL numero ingresado es: " + nro);

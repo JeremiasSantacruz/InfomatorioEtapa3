@@ -12,11 +12,11 @@ public class Ejercicio6 {
         System.out.println(numero1 + " elevado a " + numero2 + " = " + elevado(numero1, numero2));
     }
 
-    public static Integer elevado(Integer num, Integer num2){
-        if (num2 <= 1){
+    public static Integer elevado(Integer num, Integer num2) {
+        if (num2 <= 1) {
             return num;
         } else {
-            return num * elevado(num, num2-1);
+            return num * elevado(num, num2 - 1);
         }
     }
 }

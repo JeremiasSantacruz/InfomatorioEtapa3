@@ -5,6 +5,7 @@ import java.time.LocalDate;
 public interface DateUtil {
     /**
      * Metodo que convierte un LocalDate en string
+     *
      * @param fecha LocalDate
      * @return String
      */
@@ -12,6 +13,7 @@ public interface DateUtil {
 
     /**
      * Metodo para parsear Fecha a localDate YYYY-MM-DD
+     *
      * @param string
      * @return LocalDate
      */

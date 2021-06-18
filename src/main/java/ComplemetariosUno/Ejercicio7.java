@@ -1,6 +1,8 @@
 package ComplemetariosUno;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class Ejercicio7 {
 
@@ -9,7 +11,7 @@ public class Ejercicio7 {
         System.out.println("Ingrese una cadena: ");
         String cadena = scanner.next();
         List<String> letrasMayus = new ArrayList<String>();
-        for (String letra: cadena.split("") ) {
+        for (String letra : cadena.split("")) {
             letrasMayus.add(letra.toUpperCase());
         }
         cadena = String.join("", letrasMayus);

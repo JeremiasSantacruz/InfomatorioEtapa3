@@ -16,7 +16,7 @@ public class Ejercicio2 {
 
     }
 
-    public static void tamanioYvalor(ArrayList arreglo){
+    public static void tamanioYvalor(ArrayList arreglo) {
         System.out.println("El tamanio del arreglo es de: " + arreglo.size());
         System.out.println(arreglo);
     }

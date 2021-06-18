@@ -13,7 +13,7 @@ public class Ejercicio1 {
             ciudades.add(scanner.nextLine());
         }
         for (int i = 0; i < 3; i++) {
-            System.out.println("#" + (i+1) + " - "+ ciudades.get(i));
+            System.out.println("#" + (i + 1) + " - " + ciudades.get(i));
         }
     }
 

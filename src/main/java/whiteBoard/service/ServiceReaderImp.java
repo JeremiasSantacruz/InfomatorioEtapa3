@@ -13,8 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ServiceReaderImp implements ServiceReader {
+    private final DateUtil fecha = new DateIUtilImp();
     private BufferedReader br;
-    private DateUtil fecha = new DateIUtilImp();
 
     public ServiceReaderImp() {
         String path = Paths.get("src/main/java/whiteBoard/empleados.txt").toAbsolutePath().toString();
@@ -49,7 +49,7 @@ public class ServiceReaderImp implements ServiceReader {
         ArrayList<Empleado> empleados = new ArrayList<>();
         Empleado empleado;
         empleado = leerLinea();
-        while (empleado != null ){
+        while (empleado != null) {
             empleados.add(empleado);
             empleado = leerLinea();
         }

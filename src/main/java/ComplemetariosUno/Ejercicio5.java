@@ -13,7 +13,7 @@ public class Ejercicio5 {
         System.out.println(numero1 + " x " + numero2 + " = " + numero1 * numero2);
     }
 
-    public static void multiplicacion(Integer num, Integer num2){
+    public static void multiplicacion(Integer num, Integer num2) {
         System.out.println(num + " x " + num2 + " = " + num * num2);
     }
 
