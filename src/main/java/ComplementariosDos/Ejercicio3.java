@@ -29,17 +29,17 @@ public class Ejercicio3 {
 
     public static void enOrden(List<Integer> lista){
         Collections.sort(lista);
-        lista.forEach(System.out::println);
+        System.out.println(lista);
     }
 
     public static void enInverso(List<Integer> lista){
         Collections.sort(lista, Collections.reverseOrder());
-        lista.forEach(System.out::println);
+        System.out.println(lista);
     }
 
     public static void desordenado(List<Integer> lista){
         Collections.shuffle(lista);
-        lista.forEach(System.out::println);
+        System.out.println(lista);
     }
 
 }

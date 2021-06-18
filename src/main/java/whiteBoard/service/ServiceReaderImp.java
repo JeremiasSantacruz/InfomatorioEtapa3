@@ -30,7 +30,7 @@ public class ServiceReaderImp implements ServiceReader {
     public Empleado leerLinea() throws IOException {
 //    Cada línea es un --> Empleado → se almacena en una lista
         String line = br.readLine();
-        if (line == null || line.isBlank()) {
+        if (line == null || line.isEmpty()) {
             return null;
         }
 //    Carlos,Sanchez,20-01-1980,45678.08
